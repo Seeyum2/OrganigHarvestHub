@@ -1,0 +1,99 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Set full viewport height */
+}
+
+.box {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 80%;
+}
+
+.box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+
+.images img {
+    max-width: 30%;
+    height: auto;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    border-radius: 20px;
+
+}
+
+.images img:hover {
+    transform: scale(1.5);
+    border-radius: 0px;
+}
+
+.box p {
+    margin-bottom: 10px;
+}
+
+.box p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Your existing CSS styles */
+
+.buttons {
+    margin-top: 20px;
+}
+
+.home-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.home-button:hover {
+    background-color: #2980b9;
+}
+
+.add-to-cart {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.add-to-cart:hover {
+    background-color: #c0392b;
+}
+
+/* Your existing CSS styles */
